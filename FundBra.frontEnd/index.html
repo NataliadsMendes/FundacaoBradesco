@@ -1,0 +1,28 @@
+<!-- Código do modelo HTML5 (cabeçalho) -->
+<!DOCTYPE html>                     <!-- <!doctype html> indica que este código é HTML5 -->
+<html lang="pt-br">
+<head>
+    <!-- Metaelementos ou metamarcas fornecem informações descritivas sobre a página da Web. -->
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple website</title>   <!-- Nome da abra (titulo) -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="dark-theme">
+    <h1> Task list</h1>              <!-- Primeiro titulo (maior) ou cabeçalho do texto-->
+    <p id="msg"> Current tasks: </p> <!-- Parágrafo -->
+    <ul>
+        <li class="list"> Add visual styles</li>  <!-- Item de lista  -->
+        <li class="list"> Add light and dark themes </li>
+        <li> Enable switching the theme </li>
+    </ul>
+    <div>
+        <button class="btn"> Dark </button>
+    </div>
+    <script src="app.js"> </script>  <!-- Referência para JavaScript-->
+    <!-- Colocar o script no final da seção permite que todo o conteúdo da página seja exibido na tela primeiro, carregando o script em seguida-->
+    <noscript> You need to enable JavaScript to view the full site.</noscript>
+    <!-- O elemento <noscript>, que pode ser usado para mostrar uma mensagem, caso o JavaScript seja desativado.-->
+</body>
+
+</html>
